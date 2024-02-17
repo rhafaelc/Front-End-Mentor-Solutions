@@ -15,12 +15,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [here](https://results-summary-component-fe.vercel.app/)
+- Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/04-results-summary-component-main/)
 
 ### Screenshot
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-04-results-summary-component-main-2024-02-17-12_40_28](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/a9f79306-2e88-4535-af0b-447a7c1c2b4a)
 
-![screencapture-results-summary-component-fe-vercel-app-2024-02-16-15_20_36](https://github.com/rhafaelc/results-summary-component-fe/assets/109317539/719da2df-ddad-40ae-9cdc-c94c06d02e3c)
-
-
-![screencapture-results-summary-component-fe-vercel-app-2024-02-16-15_21_13](https://github.com/rhafaelc/results-summary-component-fe/assets/109317539/3e6e2dfb-caa6-43ef-b147-afc83dd99846)
-
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-04-results-summary-component-main-2024-02-17-12_40_48](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/38658fc0-d5d1-4862-b65b-2803a241b85b)
