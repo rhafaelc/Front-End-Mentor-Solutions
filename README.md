@@ -10,7 +10,9 @@ Frontend Mentor: A showcase of my front-end skills.
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/06-qr-code-component-main) | [Repo](06-qr-code-component-main/) | [Try out](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
-### Results summary component
+<br>
+
+### Product preview card component
 
 ![desktop-preview](05-product-preview-card-component-main/design/desktop-preview.jpg)
 
