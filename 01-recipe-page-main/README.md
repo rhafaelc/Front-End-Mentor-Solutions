@@ -15,12 +15,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [here](https://front-end-mentor-challenges-green.vercel.app/)
+- Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/01-recipe-page-main/)
 
 ### Screenshot
-![Desktop-View](https://github.com/rhafaelc/Front-End-Mentor-Challenges/assets/109317539/83b4234d-efa8-4e51-950f-487e8cfb3fc0)
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-01-recipe-page-main-2024-02-17-12_35_18](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/eee1c806-215f-4af1-a472-c0eec7e41e05)
 
-![Mobile-VIew](https://github.com/rhafaelc/Front-End-Mentor-Challenges/assets/109317539/e5538cc2-854f-4af7-97d4-acb2293538d8)
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-01-recipe-page-main-2024-02-17-12_35_35](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/b7142415-dd7b-4bff-bd7c-6663e82eec97)
+
 
 
 
