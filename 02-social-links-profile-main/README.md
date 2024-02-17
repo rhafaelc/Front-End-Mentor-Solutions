@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Social links profile solution
 
 ![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
 
@@ -15,11 +15,10 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [here](https://social-links-profile-gray-two.vercel.app/)
+- Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/02-social-links-profile-main/)
 
 ### Screenshot
-
-![Desktop-View](https://github.com/rhafaelc/Front-End-Mentor-Challenges/assets/109317539/05c0dee7-4d7d-466f-a4a6-e17920ec66be)
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-02-social-links-profile-main-2024-02-17-12_37_35](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/38ba527d-d75e-4eed-b5d2-97ae40551880)
 
 
 
