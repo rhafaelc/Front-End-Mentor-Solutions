@@ -4,6 +4,14 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### NFT preview card component
+
+![desktop-preview](07-nft-preview-card-component-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/07-nft-preview-card-component-main) | [Repo](07-nft-preview-card-component-main/) | [Try out](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+
+<br>
+
 ### QR code component
 
 ![desktop-preview](06-qr-code-component-main/design/desktop-preview.jpg)
