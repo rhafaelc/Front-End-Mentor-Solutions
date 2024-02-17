@@ -14,10 +14,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Live Site URL: [here](https://product-preview-card-component-fe.vercel.app/)
+- Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/05-product-preview-card-component-main/)
 
 ### Screenshot
-![screencapture-product-preview-card-component-fe-vercel-app-2024-02-16-18_02_47](https://github.com/rhafaelc/product-preview-card-component-fe/assets/109317539/d88c95de-5dd4-484c-927f-228084648e9d)
 
-![screencapture-127-0-0-1-5500-index-html-2024-02-16-18_03_41](https://github.com/rhafaelc/product-preview-card-component-fe/assets/109317539/7337ee17-c2e3-475a-9cfb-d79557e0ca8b)
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-05-product-preview-card-component-main-2024-02-17-12_42_31](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/351d3498-eb76-49e5-80eb-aafc6b7622dc)
 
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-05-product-preview-card-component-main-2024-02-17-12_42_46](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/ac0f5cde-55ee-424c-9a4d-cc544d006a09)
