@@ -1,33 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet" />
 
-  Equilibrium #3429
+    <title>Frontend Mentor | NFT preview card component</title>
 
-  Our Equilibrium collection promotes balance and calm.
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(217, 54%, 11%);
+        font-family: Outfit;
+        color: hsl(0, 0%, 100%);
+        font-size: 18px;
+      }
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(216, 50%, 16%);
+        padding: 18px;
+        width: 250px;
+        border-radius: 12px;
+        box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      main > img {
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      hr {
+        margin: 0;
+        height: 2px;
+        border: none;
+        background-color: hsl(215, 32%, 27%);
+      }
+
+      h1 {
+        margin: 20px 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+
+      section > p {
+        color: hsl(215, 51%, 70%);
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      .price-tag {
+        margin: 12px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .price-tag > div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 0.7rem;
+      }
+
+      .price-tag div img {
+        height: 16px;
+      }
+
+      .price {
+        color: hsl(178, 100%, 50%);
+      }
+
+      .time {
+        color: hsl(215, 51%, 70%);
+      }
+
+      .author {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .author > img {
+        width: 24px;
+        height: 24px;
+        border: 1px solid hsl(0, 0%, 100%);
+        border-radius: 100px;
+      }
+
+      .author p {
+        font-size: 0.8rem;
+        font-weight: 300;
+      }
+
+      .author p span {
+        color: hsl(215, 51%, 70%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="images/image-equilibrium.jpg" alt="nft" />
+      <section>
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="price-tag">
+          <div class="price">
+            <img src="images/icon-ethereum.svg" alt="ethereum" />
+            <p>0.041 ETH</p>
+          </div>
+          <div class="time">
+            <img src="images/icon-clock.svg" alt="clock" />
+            <p>3 days left</p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <div class="author">
+        <img src="images/image-avatar.png" alt="avatar" />
+        <p><span>Creation of</span> Jules Wyvern</p>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/rhafaelc">Rhafael Chandra</a>.
+    </div>
+  </body>
 </html>
