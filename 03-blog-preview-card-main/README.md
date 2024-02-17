@@ -15,9 +15,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [here](https://blog-preview-card-fe.vercel.app/)
+- Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/03-blog-preview-card-main/)
 
 ### Screenshot
 
-![screencapture-blog-preview-card-fe-vercel-app-2024-02-16-15_26_14](https://github.com/rhafaelc/blog-preview-card-fe/assets/109317539/3453e89d-1a4e-4818-9524-7e68b85dda5e)
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-03-blog-preview-card-main-2024-02-17-12_39_09](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/6f14dfef-6c2b-4a28-9d50-dcf7f032635d)
+
 
