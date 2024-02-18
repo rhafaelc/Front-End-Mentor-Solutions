@@ -17,4 +17,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-08-order-summary-component-main-2024-02-18-16_36_43](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/b6bf1ebc-d2d4-4df6-92d9-5d0392554f92)
+
 
