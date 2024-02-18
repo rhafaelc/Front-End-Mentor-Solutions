@@ -4,6 +4,12 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Order summary card
+
+![desktop-preview](08-order-summary-component-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/08-order-summary-component-main) | [Repo](08-order-summary-component-main/) | [Try out](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+
 ### NFT preview card component
 
 ![desktop-preview](07-nft-preview-card-component-main/design/desktop-preview.jpg)
