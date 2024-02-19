@@ -51,10 +51,39 @@
         box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
       }
 
-      main > img {
+      .container {
+        margin: 0 0 -250px 0;
+        cursor: pointer;
+      }
+
+      .container > img {
+        opacity: 1;
         width: 100%;
         border-radius: 8px;
         overflow: hidden;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+        cursor: pointer;
+      }
+
+      .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: relative;
+        top: -256px;
+        text-align: center;
+        background-color: hsl(178, 100%, 50%);
+        padding: 100px;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .container:hover > img {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 0.5;
       }
 
       hr {
@@ -68,6 +97,11 @@
         margin: 20px 0;
         font-size: 1.1rem;
         font-weight: 400;
+      }
+
+      h1:hover {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
       }
 
       section > p {
@@ -119,16 +153,28 @@
       .author p {
         font-size: 0.8rem;
         font-weight: 300;
+        color: hsl(215, 51%, 70%);
       }
 
       .author p span {
-        color: hsl(215, 51%, 70%);
+        color: hsl(0, 0%, 100%);
+        transition-duration: 0.4s;
+      }
+
+      .author p span:hover {
+        cursor: pointer;
+        color: hsl(178, 100%, 50%);
       }
     </style>
   </head>
   <body>
     <main>
-      <img src="images/image-equilibrium.jpg" alt="nft" />
+      <div class="container">
+        <img src="images/image-equilibrium.jpg" alt="nft" />
+        <div class="middle">
+          <img class="overlay" src="images/icon-view.svg" alt="" />
+        </div>
+      </div>
       <section>
         <h1>Equilibrium #3429</h1>
         <p>Our Equilibrium collection promotes balance and calm.</p>
@@ -146,7 +192,7 @@
       </section>
       <div class="author">
         <img src="images/image-avatar.png" alt="avatar" />
-        <p><span>Creation of</span> Jules Wyvern</p>
+        <p>Creation of <span>Jules Wyvern</span></p>
       </div>
     </main>
 
