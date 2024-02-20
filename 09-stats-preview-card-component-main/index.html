@@ -1,33 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet" />
 
-  Get insights that help your business grow.
+    <title>Frontend Mentor | Stats preview card component</title>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin-top: 20px;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(233, 47%, 7%);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        color: hsl(0, 0%, 100%);
+      }
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      main {
+        display: flex;
+        width: 1110px;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: hsl(244, 38%, 16%);
+      }
+
+      .container {
+        position: relative;
+        background-repeat: no-repeat;
+      }
+
+      img {
+        display: block;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        background: hsl(278, 100%, 26%);
+        opacity: 0.6;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s ease;
+        color: white;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 70px;
+      }
+
+      section > h1 {
+        margin: 0 0 16px 0;
+        font-size: 2.2rem;
+        font-weight: 700;
+        letter-spacing: 0.01rem;
+        word-spacing: 0.1rem;
+      }
+
+      section > h1 > span {
+        color: hsl(277, 64%, 61%);
+      }
+
+      section > p {
+        padding-right: 80px;
+        line-height: 1.5rem;
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 50px;
+      }
+
+      .datas {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        gap: 60px;
+        justify-content: start;
+      }
+
+      .datas > p {
+        display: flex;
+        flex-direction: column;
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+      }
+
+      .datas span {
+        text-transform: none;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 8px;
+      }
+
+      #mobile {
+        display: none;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          display: none;
+        }
+
+        #mobile {
+          position: relative;
+          display: block;
+        }
+
+        #mobile img {
+          height: 100%;
+          width: 100%;
+        }
+
+        body {
+          text-align: center;
+        }
+
+        section > h1 {
+          font-size: 2rem;
+        }
+
+        main {
+          width: 356px;
+          flex-direction: column;
+        }
+
+        section {
+          padding: 50px 27px;
+        }
+
+        section > p {
+          padding: 0;
+          font-size: 1.1rem;
+          margin-bottom: 30px;
+        }
+
+        .datas {
+          flex-direction: column;
+          gap: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container" id="mobile">
+        <img src="images/image-header-mobile.jpg" alt="" />
+        <div class="overlay"></div>
+      </div>
+      <section>
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="datas">
+          <p><span>10k+</span> companies</p>
+          <p><span>314</span> templates</p>
+          <p><span>12M+</span> queries</p>
+        </div>
+      </section>
+      <div class="container">
+        <img src="images/image-header-desktop.jpg" alt="" />
+        <div class="overlay"></div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/rhafaelc">Rhafael Chandra</a>.
+    </div>
+  </body>
 </html>
