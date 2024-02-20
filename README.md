@@ -4,6 +4,12 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Stats preview card component
+
+![desktop-preview](09-stats-preview-card-component-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/09-stats-preview-card-component-main) | [Repo](09-stats-preview-card-component-main/) | [Try out](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+
 ### Order summary card
 
 ![desktop-preview](08-order-summary-component-main/design/desktop-preview.jpg)
