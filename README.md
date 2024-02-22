@@ -4,6 +4,12 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Social proof section
+
+![desktop-preview](12-social-proof-section-master/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/12-social-proof-section-master) | [Repo](12-social-proof-section-master/) | [Try out](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+
 ### Profile card component
 
 ![desktop-preview](11-profile-card-component-main/design/desktop-preview.jpg)
