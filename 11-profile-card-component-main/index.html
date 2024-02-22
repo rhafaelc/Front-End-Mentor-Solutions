@@ -1,35 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet" />
 
-  80K
-  Followers
+    <title>Frontend Mentor | Profile card component</title>
 
-  803K
-  Likes
+    <style>
+      .attribution {
+        margin-top: 20px;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(images/bg-pattern-top.svg),
+          url(images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-size: 900px, 900px;
+        background-position: top -400px left -200px, bottom -400px right -200px;
+        overflow: hidden;
+        background-color: hsl(185, 75%, 39%);
+        font-family: "Kumbh Sans";
+        font-size: 18px;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 100%);
+        padding: 0;
+        border-radius: 16px;
+        overflow: hidden;
+        color: hsl(0, 0%, 59%);
+        box-shadow: 0 50px 50px 10px hsla(0, 0%, 0%, 0.1);
+      }
+      .container {
+        position: relative;
+        display: flex;
+        margin: 0 auto 60px auto;
+      }
+
+      .profile-image {
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        left: -49px;
+        top: -49px;
+        border-radius: 100%;
+        border: 6px white solid;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin: 0;
+      }
+
+      h1 {
+        color: black;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+
+      .city {
+        margin: -10px 0 20px 0;
+        font-size: 0.9rem;
+      }
+
+      .stats {
+        padding: 24px;
+        border-top: 1px hsla(0, 1%, 72%, 0.605) solid;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 30px;
+      }
+
+      .stats p {
+        margin: 4px 0 0 0;
+        font-size: 0.7rem;
+      }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          background-size: 400px, 400px;
+          background-position: top -200px left -100px,
+            bottom -200px right -100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="images/bg-pattern-card.svg" alt="pattern-card" />
+      <div class="container">
+        <img class="profile-image" src="images/image-victor.jpg" alt="" />
+      </div>
+      <section>
+        <section class="profile">
+          <h1>Victor Crest</h1>
+          <p>26</p>
+        </section>
+        <p class="city">London</p>
+        <section class="stats">
+          <div class="stats-detail">
+            <h1>80K</h1>
+            <p>Followers</p>
+          </div>
+          <div class="stats-detail">
+            <h1>803K</h1>
+            <p>Likes</p>
+          </div>
+          <div class="stats-detail">
+            <h1>1.4K</h1>
+            <p>Photos</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/rhafaelc">Rhafael Chandra</a>.
+    </div>
+  </body>
 </html>
