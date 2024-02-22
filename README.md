@@ -4,6 +4,12 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Profile card component
+
+![desktop-preview](11-profile-card-component-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/11-profile-card-component-main) | [Repo](11-profile-card-component-main/) | [Try out](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+
 ### Stats preview card component
 
 ![desktop-preview](10-3-column-preview-card-component-main/design/desktop-preview.jpg)
