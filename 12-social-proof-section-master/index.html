@@ -9,53 +9,319 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+      href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet" />
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
+        margin-top: 20px;
         font-size: 11px;
         text-align: center;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      main {
+        font-family: "League Spartan";
+        font-weight: 400;
+        font-size: 15px;
+        width: 1110px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .description {
+        width: 450px;
+      }
+
+      .description h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        margin: 0;
+      }
+
+      .description p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: hsl(303, 10%, 53%);
+      }
+
+      .ratings {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 0;
+      }
+
+      .ratings-detail {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 32px;
+        align-items: center;
+        background-color: hsl(300, 24%, 96%);
+        padding: 12px 30px;
+        border-radius: 8px;
+        width: 384px;
+      }
+
+      .stars {
+        background-image: url("./images/icon-star.svg"),
+          url("./images/icon-star.svg"), url("./images/icon-star.svg"),
+          url("./images/icon-star.svg"), url("./images/icon-star.svg");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: center right 0, center right 24px,
+          center right 48px, center right 72px, center right 96px;
+        background-size: 18px;
+        width: 120px;
+        height: 30px;
+      }
+
+      .ratings-detail p {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin: 0;
+        color: hsl(300, 43%, 22%);
+      }
+
+      section {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+      }
+
+      .card {
+        background-color: hsl(300, 43%, 22%);
+        padding: 40px 40px;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 8px;
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+
+      .name-type {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .name-type h1 {
+        font-size: 1.1rem;
+        margin: 0;
+        color: white;
+      }
+
+      .name-type p {
+        font-size: 1rem;
+        margin: 4px 0 0 0;
+        color: hsl(333, 80%, 67%);
+      }
+
+      .card > p {
+        font-size: 1rem;
+        margin: 0;
+        line-height: 1.1rem;
+        color: white;
+      }
+
+      @media only screen and (min-width: 600px) {
+        #reviews {
+          margin-left: 100px;
+        }
+
+        #guru {
+          margin-left: 150px;
+        }
+
+        #besttech {
+          margin-left: 200px;
+        }
+
+        #first {
+          margin-top: 0;
+        }
+
+        #second {
+          margin-top: 20px;
+        }
+
+        #third {
+          margin-top: 40px;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        main {
+          width: 330px;
+          height: 1500px;
+          text-align: center;
+        }
+
+        header {
+          flex-direction: column;
+        }
+
+        .description {
+          margin-top: 70px;
+          width: 100%;
+        }
+
+        .description h1 {
+          font-size: 2.5rem;
+        }
+
+        .description p {
+          font-size: 1.1rem;
+        }
+
+        .ratings {
+          margin: 0;
+          width: 100%;
+          align-items: center;
+          gap: 14px;
+        }
+
+        .ratings-detail {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          gap: 10px;
+        }
+
+        section {
+          flex-direction: column;
+          width: 100%;
+          gap: 12px;
+        }
+
+        .card {
+          width: 250px;
+          height: 100%;
+          text-align: start;
+        }
+
+        .card > p {
+          font-size: 1rem;
+          margin-top: 30px;
+          line-height: 1.3rem;
+        }
+      }
     </style>
   </head>
   <body>
-    10,000+ of our users love our products.
-
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+    <main>
+      <header>
+        <div class="description">
+          <h1>10,000+ of our users love our products.</h1>
+          <p>
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+        <div class="ratings">
+          <div class="ratings-detail" id="reviews">
+            <div class="stars"></div>
+            <p>Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="ratings-detail" id="guru">
+            <div class="stars"></div>
+            <p>Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="ratings-detail" id="besttech">
+            <div class="stars"></div>
+            <p>Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="card" id="first">
+          <div class="profile">
+            <img src="images/image-colton.jpg" alt="" />
+            <div class="name-type">
+              <h1>Colton Smith</h1>
+              <p>Verified Buyer</p>
+            </div>
+          </div>
+          <p>
+            "We needed the same printed design as the one we had ordered a week
+            prior. Not only did they find the original order, but we also
+            received it in time. Excellent!"
+          </p>
+        </div>
+        <div class="card" id="second">
+          <div class="profile">
+            <img src="images/image-irene.jpg" alt="" />
+            <div class="name-type">
+              <h1>Irene Roberts</h1>
+              <p>Verified Buyer</p>
+            </div>
+          </div>
+          <p>
+            "Customer service is always excellent and very quick turn around.
+            Completely delighted with the simplicity of the purchase and the
+            speed of delivery."
+          </p>
+        </div>
+        <div class="card" id="third">
+          <div class="profile">
+            <img src="images/image-anne.jpg" alt="" />
+            <div class="name-type">
+              <h1>Anne Wallace</h1>
+              <p>Verified Buyer</p>
+            </div>
+          </div>
+          <p>
+            "Put an order with this company and can only praise them for the
+            very high standard. Will definitely use them again and recommend
+            them to everyone!"
+          </p>
+        </div>
+      </section>
+    </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://github.com/rhafaelc">Rhafael Chandra</a>.
     </div>
   </body>
 </html>
