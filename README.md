@@ -4,11 +4,21 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
-### Social proof section
+### Four card feature section
+
+![desktop-preview](14-single-price-grid-component-master/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/14-single-price-grid-component-master) | [Repo](14-single-price-grid-component-master/) | [Try out](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
+
+<br>
+
+### Four card feature section
 
 ![desktop-preview](13-four-card-feature-section-master/design/desktop-preview.jpg)
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/13-four-card-feature-section-master) | [Repo](13-four-card-feature-section-master/) | [Try out](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
+
+<br>
 
 ### Social proof section
 
@@ -16,11 +26,15 @@ Frontend Mentor: A showcase of my front-end skills.
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/12-social-proof-section-master) | [Repo](12-social-proof-section-master/) | [Try out](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
+<br>
+
 ### Profile card component
 
 ![desktop-preview](11-profile-card-component-main/design/desktop-preview.jpg)
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/11-profile-card-component-main) | [Repo](11-profile-card-component-main/) | [Try out](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+
+<br>
 
 ### Stats preview card component
 
@@ -28,17 +42,23 @@ Frontend Mentor: A showcase of my front-end skills.
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/10-3-column-preview-card-component-main) | [Repo](10-3-column-preview-card-component-main/) | [Try out](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
+<br>
+
 ### Stats preview card component
 
 ![desktop-preview](09-stats-preview-card-component-main/design/desktop-preview.jpg)
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/09-stats-preview-card-component-main) | [Repo](09-stats-preview-card-component-main/) | [Try out](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
+<br>
+
 ### Order summary card
 
 ![desktop-preview](08-order-summary-component-main/design/desktop-preview.jpg)
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/08-order-summary-component-main) | [Repo](08-order-summary-component-main/) | [Try out](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+
+<br>
 
 ### NFT preview card component
 
