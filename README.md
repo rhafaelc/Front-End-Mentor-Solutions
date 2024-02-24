@@ -4,6 +4,14 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Testimonials grid section
+
+![desktop-preview](16-testimonials-grid-section-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/16-testimonials-grid-section-main) | [Repo](16-testimonials-grid-section-main/) | [Try out](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
+
+<br>
+
 ### Huddle landing page with single introductory section
 
 ![desktop-preview](15-huddle-landing-page-with-single-introductory-section-master/design/desktop-preview.jpg)
