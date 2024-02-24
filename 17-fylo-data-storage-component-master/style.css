@@ -160,6 +160,7 @@ section:last-child > p {
   main {
     width: 375px;
     flex-direction: column;
+    align-items: center;
   }
 
   section {
