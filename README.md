@@ -4,6 +4,14 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Clipboard landing page
+
+![desktop-preview](18-clipboard-landing-page-master/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/18-clipboard-landing-page-master) | [Repo](18-clipboard-landing-page-master/) | [Try out](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
+
+<br>
+
 ### Fylo data storage component
 
 ![desktop-preview](17-fylo-data-storage-component-master/design/desktop-preview.jpg)
