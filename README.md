@@ -4,6 +4,14 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Fylo data storage component
+
+![desktop-preview](17-fylo-data-storage-component-master/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/17-fylo-data-storage-component-master) | [Repo](17-fylo-data-storage-component-master/) | [Try out](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n)
+
+<br>
+
 ### Testimonials grid section
 
 ![desktop-preview](16-testimonials-grid-section-main/design/desktop-preview.jpg)
