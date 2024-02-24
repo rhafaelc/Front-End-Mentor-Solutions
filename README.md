@@ -4,6 +4,14 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Huddle landing page with single introductory section
+
+![desktop-preview](15-huddle-landing-page-with-single-introductory-section-master/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/15-huddle-landing-page-with-single-introductory-section-master) | [Repo](15-huddle-landing-page-with-single-introductory-section-master/) | [Try out](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
+
+<br>
+
 ### Four card feature section
 
 ![desktop-preview](14-single-price-grid-component-master/design/desktop-preview.jpg)
