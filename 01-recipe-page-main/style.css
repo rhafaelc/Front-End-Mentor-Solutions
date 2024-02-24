@@ -1,0 +1,154 @@
+
+.attribution {
+  margin-bottom: 16px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+img {
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  color: hsl(14.17, 38%, 37%);
+}
+
+h1,
+h2 {
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+
+ol {
+  margin-left: 1.5em;
+}
+
+ul {
+  margin-left: -1em;
+}
+
+li {
+  padding-left: 16px;
+  margin-top: 12px;
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  text-indent: 1.5em;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td:nth-child(2) {
+  font-weight: bold;
+  color: hsl(14.17, 38%, 37%);
+}
+
+tr:hover {
+  background-color: hsl(30, 18%, 87%);
+}
+
+.hero {
+  background-color: hsl(330, 100%, 98%);
+  width: 50%;
+  padding: 48px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  border-radius: 24px;
+}
+
+.prep {
+  padding-left: 32px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.prep > h2 {
+  font-family: "Outfit";
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+  margin-bottom: 56px;
+}
+
+.instruction {
+  margin-bottom: 56px;
+}
+
+.instruction ol {
+  padding: 0;
+}
+
+.instruction ol > li::marker {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin: 0;
+    background-color: hsl(330, 100%, 98%);
+  }
+
+  img {
+    border-radius: 0;
+    object-fit: cover;
+  }
+
+  .hero {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0;
+  }
+
+  .hero div:not(:first-child) {
+    padding: 0px 24px;
+  }
+}

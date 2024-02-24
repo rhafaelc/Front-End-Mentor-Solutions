@@ -1,0 +1,147 @@
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(216, 50%, 16%);
+  padding: 18px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: 0 0 -250px 0;
+  cursor: pointer;
+}
+
+.container > img {
+  opacity: 1;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: relative;
+  top: -256px;
+  text-align: center;
+  background-color: hsl(178, 100%, 50%);
+  padding: 100px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.container:hover > img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 0.5;
+}
+
+hr {
+  margin: 0;
+  height: 2px;
+  border: none;
+  background-color: hsl(215, 32%, 27%);
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+section > p {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.price-tag {
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-tag > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.7rem;
+}
+
+.price-tag div img {
+  height: 16px;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+}
+
+.author {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author > img {
+  width: 24px;
+  height: 24px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100px;
+}
+
+.author p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.author p span {
+  color: hsl(0, 0%, 100%);
+  transition-duration: 0.4s;
+}
+
+.author p span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}

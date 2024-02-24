@@ -1,0 +1,162 @@
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+main {
+  width: 640px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 10px 40px -10px hsla(0, 0%, 0%, 0.2);
+
+  font-family: Karla;
+  font-size: 16px;
+  font-family: 400px;
+}
+
+header {
+  padding: 40px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 26px;
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: hsl(71, 73%, 54%);
+}
+
+header > p {
+  line-height: 1.8rem;
+  color: hsl(218, 22%, 67%);
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  padding: 40px;
+  flex: 1;
+  color: hsl(204, 43%, 93%);
+}
+
+section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.subscription h4 {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.subscription h4 b {
+  font-size: 2rem;
+}
+
+.subscription p {
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+
+.subscription button {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 16px;
+  border-radius: 4px;
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  border: 2px solid hsl(71, 73%, 54%);
+  box-shadow: 0px 10px 20px -10px hsla(0, 0%, 0%, 0.2);
+  transition-duration: 0.4s;
+}
+
+.subscription button:hover {
+  cursor: pointer;
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(71, 73%, 54%);
+}
+
+.why-us {
+  background-color: #50bcbc;
+  padding: 40px;
+  flex: 1;
+  color: white;
+}
+
+.why-us p {
+  font-weight: 200;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    width: 90%;
+  }
+
+  header,
+  .subscription,
+  .why-us {
+    padding: 30px;
+  }
+
+  header {
+    flex: 1;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  header > p {
+    font-size: 0.85rem;
+  }
+
+  section {
+    flex: 1;
+    flex-direction: column;
+  }
+}

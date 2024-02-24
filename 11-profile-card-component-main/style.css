@@ -1,0 +1,97 @@
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 900px, 900px;
+  background-position: top -400px left -200px, bottom -400px right -200px;
+  overflow: hidden;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  padding: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  color: hsl(0, 0%, 59%);
+  box-shadow: 0 50px 50px 10px hsla(0, 0%, 0%, 0.1);
+}
+.container {
+  position: relative;
+  display: flex;
+  margin: 0 auto 60px auto;
+}
+
+.profile-image {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  left: -49px;
+  top: -49px;
+  border-radius: 100%;
+  border: 6px white solid;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.city {
+  margin: -10px 0 20px 0;
+  font-size: 0.9rem;
+}
+
+.stats {
+  padding: 24px;
+  border-top: 1px hsla(0, 1%, 72%, 0.605) solid;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.stats p {
+  margin: 4px 0 0 0;
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 400px, 400px;
+    background-position: top -200px left -100px, bottom -200px right -100px;
+  }
+}

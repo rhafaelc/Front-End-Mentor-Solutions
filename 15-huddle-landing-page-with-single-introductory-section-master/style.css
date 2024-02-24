@@ -1,0 +1,183 @@
+.attribution {
+  align-items: start;
+  justify-content: start;
+  font-size: 11px;
+  /* text-align: center; */
+  font-size: 1.6rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+}
+
+main {
+  margin: 0 7rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+nav img {
+  height: 16rem;
+  width: 22rem;
+}
+
+header {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  margin-left: 5.5rem;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-size: 3.6rem;
+  margin: 4rem 0 2.5rem 0;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.2rem;
+}
+
+p {
+  color: hsl(0, 0%, 100%);
+  margin: 0 0 2rem 0;
+  font-size: 1.8rem;
+  width: 51.25rem;
+}
+
+button {
+  width: 20rem;
+  height: 6rem;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  border-radius: 10rem;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 400;
+  box-shadow: 0px 10px 20px hsl(217, 19%, 35%);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: end;
+}
+
+.icon-container i {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.8rem;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.icon-container i:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 1250px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+    background-size: 100%;
+  }
+
+  main {
+    margin: 0 6.4rem;
+  }
+
+  nav img {
+    width: 40%;
+  }
+
+  header {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  header img {
+    margin: 5rem 0;
+    width: 100%;
+  }
+
+  section {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    margin: 4rem 0 1.5rem 0;
+    letter-spacing: 0.1rem;
+  }
+
+  p {
+    font-size: 3.2rem;
+    width: 95%;
+  }
+
+  button {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    width: 40rem;
+    height: 8rem;
+    font-size: 2.4rem;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-container i {
+    width: 6.4rem;
+    height: 6.4rem;
+    margin: 0 0.5rem;
+    font-size: 3rem;
+  }
+}
