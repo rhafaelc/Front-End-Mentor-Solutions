@@ -1,7 +1,188 @@
+html {
+  font-size: 62.5%;
+}
+
 .attribution {
-  font-size: 11px;
+  margin-top: 4rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 500;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  font-size: 1.3rem;
+  margin: 0 16rem;
+  font-family: "Barlow Semi Condensed";
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  gap: 3rem;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  gap: 3rem;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  gap: 3rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.status {
+  font-size: 1.1rem;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 2.4rem 3rem;
+  box-shadow: 10px 20px 40px hsla(0, 0%, 81%, 0.8);
+}
+
+.card h1 {
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+}
+
+.card p {
+  line-height: 1.8rem;
+}
+
+#daniel {
+  flex: 1.8;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 8rem;
+  background-color: hsl(263, 55%, 52%);
+}
+
+#jonathan {
+  flex: 0.7;
+  background-color: hsl(217, 19%, 35%);
+}
+
+#patrick {
+  flex: 1.8;
+  background-color: hsl(219, 29%, 14%);
+}
+
+#daniel .name,
+#daniel h1,
+#jonathan .name,
+#jonathan h1,
+#patrick .name,
+#patrick h1 {
+  color: hsl(0, 0%, 81%);
+}
+
+#daniel .status,
+#jonathan .status,
+#patrick .status {
+  color: hsla(0, 0%, 81%, 0.5);
+}
+
+#daniel p,
+#jonathan p,
+#patrick p {
+  color: hsla(0, 0%, 81%, 0.7);
+}
+
+#jeanette {
+  flex: 0.73;
+}
+
+#kira {
+  flex: 0.7;
+}
+
+#jeanette .name,
+#jeanette h1,
+#kira .name,
+#kira h1 {
+  color: hsl(219, 29%, 14%);
+}
+
+#jeanette .status,
+#kira .status {
+  color: hsla(219, 29%, 14%, 0.5);
+}
+
+#jeanette p,
+#kira p {
+  color: hsla(219, 29%, 14%, 0.7);
+}
+
+@media only screen and (max-width: 1120px) {
+  main,
+  .container-1,
+  .container-2,
+  .container-3 {
+    flex-direction: column;
+    margin: 2.2rem 0.6rem;
+    gap: 2.2rem;
+  }
+
+  #daniel,
+  #jonathan,
+  #patrick,
+  #jeanette,
+  #kira {
+    flex: 1;
+    padding: 2.4rem 3.2rem;
+  }
+  #daniel {
+    background-position: top right 3rem;
+  }
+
+  h1 {
+    width: 98.5%;
+  }
 }
