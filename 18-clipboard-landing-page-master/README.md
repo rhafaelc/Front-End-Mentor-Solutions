@@ -17,3 +17,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/18-clipboard-landing-page-master/)
 
 ### Screenshot
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-18-clipboard-landing-page-master-2024-02-25-13_26_42](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/7d77c24e-e003-430f-a217-428280db89fd)
+
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-18-clipboard-landing-page-master-2024-02-25-13_27_07](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/0328cd94-b337-4f6d-896d-087015aedf6c)
