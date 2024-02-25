@@ -4,7 +4,7 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
-### uddle landing page with alternating feature blocks
+### Huddle landing page with alternating feature blocks
 
 ![desktop-preview](19-huddle-landing-page-with-alternating-feature-blocks-master/design/desktop-preview.jpg)
 
