@@ -17,3 +17,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 - Live Site URL: [here](https://rhafaelc.github.io/Front-End-Mentor-Solutions/19-huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ### Screenshot
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-19-huddle-landing-page-with-alternating-feature-blocks-master-2024-02-25-17_39_20](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/ae907778-ab45-4dea-a338-6dbfdc043fce)
+
+![screencapture-rhafaelc-github-io-Front-End-Mentor-Solutions-19-huddle-landing-page-with-alternating-feature-blocks-master-2024-02-25-17_39_42](https://github.com/rhafaelc/Front-End-Mentor-Solutions/assets/109317539/bb08473d-e4c1-43fc-86f2-e57984487e1b)
