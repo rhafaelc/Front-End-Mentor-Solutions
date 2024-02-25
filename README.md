@@ -4,11 +4,19 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Fylo landing page with two column layout
+
+![desktop-preview](20-fylo-landing-page-with-two-column-layout-master/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/20-fylo-landing-page-with-two-column-layout-master) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/20-fylo-landing-page-with-two-column-layout-master/) | [Try out](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
+
+<br>
+
 ### Huddle landing page with alternating feature blocks
 
 ![desktop-preview](19-huddle-landing-page-with-alternating-feature-blocks-master/design/desktop-preview.jpg)
 
-[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/19-huddle-landing-page-with-alternating-feature-blocks-master) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/19-huddle-landing-page-with-alternating-feature-blocks-master/) | [Try out](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/19-huddle-landing-page-with-alternating-feature-blocks-master) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/19-huddle-landing-page-with-alternating-feature-blocks-master/) | [Try out](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100)
 
 <br>
 
