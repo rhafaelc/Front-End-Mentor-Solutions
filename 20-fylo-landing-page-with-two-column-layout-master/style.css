@@ -1,0 +1,382 @@
+html {
+  font-size: 62.5%;
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+main {
+  font-family: "Raleway";
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 89%;
+  margin: 6rem 0;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.6rem;
+  gap: 5.5rem;
+}
+
+nav ul li a {
+  font-weight: 500;
+  color: hsl(238, 22%, 44%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header {
+  width: 89%;
+  margin: 8rem 0 18rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0rem;
+}
+
+header h1 {
+  font-size: 4rem;
+  line-height: 5.5rem;
+  margin-bottom: 0;
+}
+
+header section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+  width: 90%;
+  margin: 0;
+  font-size: 1.8rem;
+  color: hsl(238, 22%, 44%);
+  margin-top: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+header img {
+  flex: 1;
+  margin-top: -4.5rem;
+  width: 4rem;
+  object-fit: cover;
+}
+
+header form {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+input {
+  padding: 1.2rem 14rem 1.2rem 2rem;
+  font-family: "Raleway";
+  border: none;
+  border-radius: 2px;
+  margin-right: 1.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 75%);
+  border: 1px solid hsl(238, 22%, 44%);
+}
+
+form button {
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Raleway";
+  padding: 1.4rem 6rem;
+  border-radius: 0.2rem;
+  background-color: hsl(224, 93%, 58%);
+}
+
+.curve-container {
+  background-image: url(images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 100%;
+}
+
+main > section {
+  margin: 0 0;
+  background-color: #f8f8fe;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+main > section > img {
+  width: 54rem;
+  object-fit: contain;
+  margin-right: 8rem;
+  margin-top: 0rem;
+}
+
+.content {
+  margin-left: 8rem;
+  z-index: 2;
+}
+
+.content h1 {
+  margin-top: 6rem;
+  margin-top: 6rem;
+  font-size: 4rem;
+  line-height: 4.8rem;
+}
+
+.content p {
+  margin: 0;
+  width: 80%;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
+  color: black;
+}
+
+.content button {
+  border: none;
+  font-size: 1.5rem;
+  color: #3da08f;
+  letter-spacing: 0.05rem;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #3da08f;
+}
+
+.card {
+  margin-top: 4.6rem;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px hsla(229, 6%, 66%, 0.3);
+  width: 28rem;
+  height: 18rem;
+  border-radius: 0.8rem;
+  padding: 3rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card > img {
+  width: 1.4rem;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+.card p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  width: 100%;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+.testimonial img {
+  width: 3.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+}
+
+.profile h2,
+.profile p {
+  margin: 0;
+}
+
+.profile h2 {
+  font-size: 1.2rem;
+}
+
+.profile p {
+  font-size: 0.9rem;
+}
+
+#early-access {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: hsl(238, 22%, 44%);
+  padding: 10rem 0;
+}
+.content-ea {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  width: 48rem;
+}
+
+.content-ea h1 {
+  font-size: 3.2rem;
+  margin-top: 0;
+  line-height: 4.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-ea p {
+  width: 100%;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  color: white;
+}
+
+#early-access form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  margin-right: 10rem;
+  width: 50rem;
+}
+
+#early-access form input {
+  margin-top: -4rem;
+  padding: 1.2rem 0;
+  font-family: "Raleway";
+  border: none;
+  border-radius: 2px;
+  margin-right: 1.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 75%);
+  border: 1px solid hsl(238, 22%, 44%);
+  padding: 1.8rem 2rem;
+}
+
+#early-access form button {
+  border: none;
+  width: 20rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Raleway";
+  padding: 1.8rem 3rem;
+  border-radius: 0.2rem;
+  background-color: hsl(224, 93%, 58%);
+}
+
+main > footer {
+  background-color: hsl(243, 87%, 12%);
+  width: 100%;
+  margin-top: -3rem;
+  padding: 11rem 0;
+}
+
+main > footer > img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%)
+    hue-rotate(253deg) brightness(102%) contrast(101%);
+  margin: 0 8rem;
+}
+main > footer section {
+  color: white;
+  margin: 4rem 8rem 0 8rem;
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
+main > footer section a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+  display: block;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-content p {
+  font-size: 1.4rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content:last-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-content i {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  margin-right: 1.6rem;
+}
+
+.footer-content img {
+  margin-right: 1.6rem;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.footer-content a:hover {
+  color: hsl(224, 93%, 58%);
+}
+
+.footer-content i:hover {
+  color: hsl(224, 93%, 58%);
+  border: 1px solid hsl(224, 93%, 58%);
+}
