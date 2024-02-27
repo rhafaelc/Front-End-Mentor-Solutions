@@ -121,6 +121,7 @@ form button {
   padding: 1.4rem 6rem;
   border-radius: 0.2rem;
   background-color: hsl(224, 93%, 58%);
+  transition-duration: 0.3s;
 }
 
 .curve-container {
@@ -177,6 +178,7 @@ main > section > img {
   padding: 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #3da08f;
+  transition-duration: 0.3s;
 }
 
 .card {
@@ -220,7 +222,7 @@ main > section > img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-content: center;
+  align-items: start;
 }
 
 .profile h2,
@@ -331,6 +333,7 @@ main > footer section a {
   font-weight: 500;
   margin-bottom: 1.6rem;
   display: block;
+  transition-duration: 0.3s;
 }
 
 .footer-content {
@@ -361,6 +364,7 @@ main > footer section a {
   align-items: center;
   padding: 0.4rem;
   margin-right: 1.6rem;
+  transition-duration: 0.3s;
 }
 
 .footer-content img {
@@ -377,6 +381,249 @@ button:hover {
 }
 
 .footer-content i:hover {
+  cursor: pointer;
   color: hsl(224, 93%, 58%);
   border: 1px solid hsl(224, 93%, 58%);
+}
+
+/* media screen css */
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  nav {
+    width: 88%;
+    margin: 4rem 0;
+  }
+
+  nav ul {
+    gap: 5.2rem;
+    font-size: 2.4rem;
+  }
+
+  .curve-container {
+    background-image: url(images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+
+  header {
+    margin-top: 14rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  header > img {
+    margin-top: 0;
+    margin-bottom: 4.2rem;
+    width: 90%;
+  }
+
+  header section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1 {
+    width: 100%;
+
+    font-size: 5rem;
+    line-height: 7rem;
+  }
+
+  header p {
+    width: 88%;
+    margin: 5.4rem 2rem;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    text-align: center;
+  }
+
+  header form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    gap: 4rem;
+  }
+
+  header input {
+    width: 50rem;
+    padding: 2.8rem 3.2rem;
+    border-radius: 0.8rem;
+    border-width: 0.2rem;
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  header button {
+    width: 56.72rem;
+    padding: 2.8rem;
+    margin-top: -1.4rem;
+    border-radius: 0.8rem;
+    border-width: 0.2rem;
+    font-size: 3rem;
+    margin-bottom: 8rem;
+  }
+
+  main > section {
+    flex-direction: column-reverse;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  main > section img {
+    width: 85%;
+    margin: 0;
+  }
+
+  .content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content > h1 {
+    margin-top: 8rem;
+    font-size: 3.2rem;
+    line-height: 5.8rem;
+  }
+
+  .content > p {
+    text-align: start;
+    width: 88%;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 2rem 0;
+  }
+
+  .content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    font-size: 2.2rem;
+    box-shadow: 0;
+    background-color: #f8f8fe;
+    margin: 6rem 0 10rem 0;
+  }
+
+  .content button img {
+    width: 4rem;
+    height: auto;
+  }
+
+  .card {
+    scale: 1.5;
+  }
+
+  #early-access {
+    margin: 20rem 0 0 0;
+    flex-direction: column;
+    padding: 8rem 0;
+    gap: 0;
+  }
+
+  .content-ea {
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #early-access form {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #early-access form input {
+    width: 50rem;
+    margin: 0;
+    padding: 2.8rem 3.2rem;
+    font-size: 2rem;
+  }
+
+  #early-access form button {
+    width: 56.72rem;
+    padding: 2.8rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+
+  .content-ea h1 {
+    font-size: 3.6rem;
+    margin-top: 2rem;
+    line-height: 4.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .content-ea p {
+    width: 75%;
+    line-height: 4rem;
+    font-size: 2.8rem;
+  }
+
+  main > footer {
+    padding: 14rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  main > footer > img {
+    width: 36rem;
+  }
+
+  main > footer section {
+    width: 80%;
+    margin: 4rem auto 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    gap: 8rem;
+  }
+
+  .footer-content img {
+    margin-right: 4rem;
+    width: 3.6rem;
+  }
+
+  .footer-content a,
+  .footer-content p {
+    font-size: 3rem;
+  }
+
+  .footer-content:last-child {
+    margin: auto;
+  }
+
+  .footer-content i {
+    margin-right: 1rem;
+    font-size: 2.4rem;
+    padding: 1.6rem;
+  }
 }
