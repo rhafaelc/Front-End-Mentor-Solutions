@@ -4,6 +4,15 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Newsletter sign-up form with success message
+
+![desktop-preview](21-newsletter-sign-up-with-success-message-main/design/desktop-preview.jpg)
+
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/21-newsletter-sign-up-with-success-message-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/21-newsletter-sign-up-with-success-message-main/) | [Try out](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv)
+
+<br>
+
 ### Fylo landing page with two column layout
 
 ![desktop-preview](20-fylo-landing-page-with-two-column-layout-master/design/desktop-preview.jpg)
