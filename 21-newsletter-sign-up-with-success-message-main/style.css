@@ -1,0 +1,334 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  display: grid;
+  min-height: 100vh;
+  justify-content: center;
+  grid-template-rows: 0.99fr 0.01fr;
+  align-items: center;
+  background-color: hsl(235, 18%, 26%);
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 70rem;
+  padding: 2rem 2rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 5rem;
+  font-family: Roboto;
+}
+
+.is-subscribe {
+  display: none;
+}
+
+.img-container {
+  width: 32rem;
+  height: auto;
+  background-image: url("assets/images/illustration-sign-up-desktop.svg");
+  background-size: 100% 100%;
+}
+
+img {
+  width: 32rem;
+  height: auto;
+}
+
+.content {
+  margin: 3rem;
+}
+
+.content h1 {
+  font-size: 4.4rem;
+  letter-spacing: 0.025rem;
+  margin: 2rem 0;
+  color: hsl(234, 29%, 20%);
+}
+
+.content p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+  color: hsl(234, 29%, 20%);
+}
+
+.content ul {
+  padding: 0;
+  margin: 1.6rem 0;
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content li {
+  list-style: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: first baseline;
+  color: hsl(234, 29%, 20%);
+}
+
+.content li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1.2rem;
+  height: 1.6rem;
+  width: 1.6rem;
+  background-image: url("assets/images/icon-list.svg");
+  background-size: 100% 100%;
+  overflow: visible;
+}
+
+form {
+  margin: 3.8rem 0;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+form .labels {
+  display: flex;
+  margin: 0;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+form .error-msg {
+  margin: 0;
+  display: none;
+  position: absolute;
+  right: 0rem;
+  font-size: 1rem;
+  color: hsl(4, 100%, 67%);
+  font-weight: 400;
+}
+
+.is-error .error-msg {
+  display: block;
+}
+
+.is-error input {
+  border: 1px solid hsl(4, 100%, 67%);
+  background-color: hsla(4, 100%, 67%, 0.2);
+  color: hsl(4, 100%, 67%);
+}
+
+form label {
+  font-size: 1rem;
+  display: block;
+  margin: 0;
+  font-weight: 700;
+  color: hsl(234, 29%, 20%);
+}
+
+form input {
+  padding: 1.4rem 2rem;
+  border: 1px solid hsl(231, 7%, 60%);
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: hsl(234, 29%, 20%);
+}
+
+::placeholder {
+  color: hsl(231, 7%, 60%);
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1.4rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #fc547c, #ff6c44);
+  box-shadow: 0 2rem 2rem 0.2rem hsla(4, 100%, 67%, 0.3);
+}
+
+form button:active {
+  opacity: 0.8;
+}
+
+.success-msg {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  padding: 4rem 5rem;
+  width: 30rem;
+  border-radius: 2.5rem;
+  font-family: Roboto;
+}
+
+.success-msg img {
+  width: 5rem;
+  height: auto;
+}
+
+.success-msg h2 {
+  font-size: 4.5rem;
+  line-height: 4.2rem;
+  color: hsl(234, 29%, 20%);
+  margin: 3.4rem 0 2.8rem 0;
+}
+
+.success-msg p {
+  margin: 0;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+}
+
+.success-msg span {
+  font-weight: 700;
+}
+
+.attribution {
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 2rem;
+}
+.attribution a {
+  color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    width: 100vw;
+    margin: 0;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+
+  .img-container {
+    margin: 0;
+    background-image: url(assets/images/illustration-sign-up-mobile.svg);
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 28.4rem;
+  }
+
+  .content {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .content > h1,
+  .content > p,
+  .content > ul {
+    margin: 0 2rem;
+  }
+
+  .content h1 {
+    margin-top: 1.8rem;
+    font-size: 4rem;
+  }
+
+  .content > p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .content > ul {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+
+  .content li {
+    font-size: 1.6rem;
+    display: flex;
+  }
+
+  .content li::before {
+    margin-right: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .content form {
+    margin: 0 auto;
+    width: 90vw;
+    margin-top: 3.6rem;
+    gap: 1rem;
+  }
+
+  .content form input,
+  .content form button {
+    padding: 2rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  .success-msg {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    gap: 0rem;
+  }
+
+  .success-msg img,
+  .success-msg h2,
+  .success-msg p,
+  .success-msg button {
+    margin: 0 2rem;
+  }
+
+  .success-msg img {
+    width: 6.4rem;
+    margin-top: -16rem;
+    margin-bottom: 4.2rem;
+  }
+
+  .success-msg h2 {
+    font-size: 4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .success-msg p {
+    font-size: 1.6rem;
+  }
+
+  .success-msg button {
+    position: absolute;
+    bottom: 2rem;
+    width: 90vw;
+    font-size: 1.4rem;
+    padding: 2rem 0rem;
+    border-radius: 0.6rem;
+  }
+
+  .attribution {
+    color: black;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
