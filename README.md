@@ -4,10 +4,17 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Advice generator app
+
+![desktop-preview](22-advice-generator-app-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/22-advice-generator-app-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/22-advice-generator-app-main/) | [Try out](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+
+<br>
+
 ### Newsletter sign-up form with success message
 
 ![desktop-preview](21-newsletter-sign-up-with-success-message-main/design/desktop-preview.jpg)
-
 
 [Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/21-newsletter-sign-up-with-success-message-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/21-newsletter-sign-up-with-success-message-main/) | [Try out](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv)
 
