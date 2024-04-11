@@ -23,5 +23,5 @@ export function updateTipAmount() {
 function updateTipUI() {
   const tipAmountElement =
     document.getElementById("tip-amount-js");
-  tipAmountElement.textContent = `$${tipAmountPerPerson}`;
+  tipAmountElement.textContent = `$${tipAmountPerPerson.toFixed(2)}`;
 }

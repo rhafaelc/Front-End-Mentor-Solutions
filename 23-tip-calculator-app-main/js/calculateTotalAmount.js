@@ -8,7 +8,7 @@ export function updateTotalAmount() {
   totalAmountPerPerson = billValue / peopleValue;
   totalAmountPerPerson =
     Math.round(totalAmountPerPerson * 100) / 100;
-  totalAmountPerPerson += +tipAmountPerPerson;
+  totalAmountPerPerson += tipAmountPerPerson;
 
   if (!isFinite(totalAmountPerPerson)) {
     totalAmountPerPerson = "Error";
@@ -20,5 +20,5 @@ export function updateTotalAmount() {
 function updateTotalUI() {
   const totalAmountElement =
     document.getElementById("total-amount-js");
-  totalAmountElement.textContent = `$${totalAmountPerPerson}`;
+  totalAmountElement.textContent = `$${totalAmountPerPerson.toFixed(2)}`;
 }
