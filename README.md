@@ -4,11 +4,11 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
-### Interactive comments section
+### Tip calculator app
 
-![desktop-preview](22-advice-generator-app-main/design/desktop-preview.jpg)
+![desktop-preview](23-tip-calculator-app-main/design/desktop-preview.jpg)
 
-[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/23-interactive-comments-section-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/23-interactive-comments-section-main/) | [Try out](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/23-tip-calculator-app-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/23-tip-calculator-app-main/) | [Try out](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 
 <br>
 
@@ -20,13 +20,6 @@ Frontend Mentor: A showcase of my front-end skills.
 
 <br>
 
-### Tip calculator app
-
-![desktop-preview](23-tip-calculator-app-main/design/desktop-preview.jpg)
-
-[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/23-tip-calculator-app-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/23-tip-calculator-app-main/) | [Try out](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
-
-<br>
 ### Newsletter sign-up form with success message
 
 ![desktop-preview](21-newsletter-sign-up-with-success-message-main/design/desktop-preview.jpg)
