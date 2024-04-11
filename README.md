@@ -4,6 +4,14 @@ Frontend Mentor: A showcase of my front-end skills.
 
 ## Project List
 
+### Launch countdown timer
+
+![desktop-preview](24-launch-countdown-timer-main/design/desktop-preview.jpg)
+
+[Live](https://rhafaelc.github.io/Front-End-Mentor-Solutions/24-launch-countdown-timer-main) | [Repo](https://github.com/rhafaelc/Front-End-Mentor-Solutions/tree/main/24-launch-countdown-timer-main/) | [Try out](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-)
+
+<br>
+
 ### Tip calculator app
 
 ![desktop-preview](23-tip-calculator-app-main/design/desktop-preview.jpg)
