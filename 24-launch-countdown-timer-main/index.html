@@ -1,31 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Launch countdown timer</title>
 
-  We're launching soon
+    <link rel="stylesheet" href="style.css" />
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>We're launching soon</h1>
+      <section class="countdown">
+        <section class="time-section days">
+          <section class="time-left flip-card days-left">
+            <section class="top-card">00</section>
+            <section class="bot-card">00</section>
+          </section>
+          <section class="time-text days-text">
+            Days
+          </section>
+        </section>
+        <section class="time-section hours">
+          <section class="time-left flip-card hours-left">
+            <section class="top-card">00</section>
+            <section class="bot-card">00</section>
+          </section>
+          <section class="time-text hours-text">
+            Hours
+          </section>
+        </section>
+        <section class="time-section minutes">
+          <section class="time-left flip-card minutes-left">
+            <section class="top-card">00</section>
+            <section class="bot-card">00</section>
+          </section>
+          <section class="time-text minutes-text">
+            Minutes
+          </section>
+        </section>
+        <section class="time-section seconds">
+          <section class="time-left flip-card seconds-left">
+            <section class="top-card">00</section>
+            <section class="bot-card">00</section>
+          </section>
+          <section class="time-text seconds-text">
+            Seconds
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <button class="social-media-button facebook-button">
+        <img
+          src="images/icon-facebook.svg"
+          alt="facebook-icon" />
+      </button>
+      <button class="social-media-button pinterest-button">
+        <img
+          src="images/icon-pinterest.svg"
+          alt="pinterest-icon" />
+      </button>
+      <button class="social-media-button instagram-button">
+        <img
+          src="images/icon-instagram.svg"
+          alt="instagram-icon" />
+      </button>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/rhafaelc"
+        >Rhafael Chandra</a
+      >.
+    </div>
+    <script type="module" src="./js/timerScript.js"></script>
+    <script src="./js/linksScript.js"></script>
+  </body>
 </html>

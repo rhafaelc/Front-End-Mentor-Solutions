@@ -1,0 +1,230 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url(images/pattern-hills.svg),
+    url(images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  background-color: hsl(235, 16%, 14%);
+  /* background-color: white; */
+}
+
+main {
+  font-family: "Red Hat Text";
+  font-weight: 700;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+  color: white;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+}
+
+.time-section {
+  width: 14rem;
+  display: grid;
+  gap: 3rem;
+  place-items: center;
+}
+
+.time-left {
+  /* background-color: hsl(236, 21%, 26%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+  font-size: 8rem;
+  width: 100%;
+  color: hsl(345, 95%, 68%);
+  position: relative;
+}
+
+.flip-card .top-flip,
+.flip-card .bot-flip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 0.5em;
+  line-height: 1;
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 100%;
+
+}
+
+.flip-card .top-flip {
+  align-items: start;
+  background-color: #302c44;
+  padding-top: 0.375em;
+  top: -.75%;
+  animation: flip-down 250ms ease-in;
+  transform-origin: bottom;
+}
+
+@keyframes flip-down {
+  100% {
+    transform: rotateX(-90deg );
+  }
+}
+
+.flip-card .bot-flip {
+  align-items: end;
+  bottom: .75%;
+  padding-bottom: 0.375em;
+
+  background-color: hsl(236, 21%, 26%);
+
+
+  animation: flip-up 250ms ease-out 250ms;
+  transform-origin: top;
+  transform: rotateX(90deg);
+}
+
+@keyframes flip-up {
+  100% {
+    transform: rotateX(0deg );
+  }
+}
+
+.top-card,
+.bot-card {
+  height: 0.75em;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.top-card {
+  background-color: #302c44;
+  width: 100%;
+  align-items: flex-start;
+  padding-top: 0.375em;
+}
+
+.bot-card {
+  background-color: hsl(236, 21%, 26%);
+  width: 100%;
+  align-items: flex-end;
+  padding-bottom: 0.375em;
+}
+
+.time-text {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 0.6rem;
+  color: hsl(237, 18%, 59%);
+}
+
+footer {
+  margin-top: 25rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.social-media-button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.social-media-button:hover {
+  filter: brightness(0) saturate(100%) invert(71%)
+    sepia(45%) saturate(6801%) hue-rotate(311deg)
+    brightness(101%) contrast(97%);
+}
+
+.attribution {
+  text-align: center;
+  margin: 2rem 0 0 0;
+  color: hsl(237, 18%, 59%);
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(345, 95%, 68%);
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .countdown {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .top-card,
+  .bot-card {
+  height: 0.5em;
+}
+
+.flip-card .bot-flip {
+  bottom: 1rem;
+  padding-bottom: 0.25em;
+
+}
+
+.flip-card .top-flip {
+  padding-top: 0.25em;
+  top: 1rem;
+}
+
+  .time-section {
+    width: 6rem;
+    width: auto;
+    gap: 0;
+  }
+
+  .time-left {
+    font-size: 3.6rem;
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
+  .time-text {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+  }
+}
