@@ -1,44 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Tip calculator app</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
 
-  Bill
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h2 id="app-name">S p l i t t e r</h2>
+      <section class="input-section">
+        <section class="bill-section">
+          <label for="bill"> Bill </label>
+          <div class="input-bill input-bill-js">
+            <input
+              type="number"
+              id="bill"
+              placeholder="0"
+              min="0" />
+            <img
+              src="images/icon-dollar.svg"
+              alt="dollar-sign" />
+          </div>
+        </section>
+        <section class="tip-percentage-section">
+          <p>Select Tip %</p>
+          <div class="tip-percentage-radio-btn">
+            <input
+              type="radio"
+              id="toggle-5"
+              name="toggle"
+              data-id="5" />
+            <label for="toggle-5">5%</label>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+            <input
+              type="radio"
+              id="toggle-10"
+              data-id="10"
+              name="toggle" />
+            <label for="toggle-10">10%</label>
 
-  Number of People
+            <input
+              type="radio"
+              id="toggle-15"
+              data-id="15"
+              name="toggle" />
+            <label for="toggle-15">15%</label>
 
-  Tip Amount
-  / person
+            <input
+              type="radio"
+              id="toggle-25"
+              data-id="25"
+              name="toggle" />
+            <label for="toggle-25">25%</label>
 
-  Total
-  / person
+            <input
+              type="radio"
+              id="toggle-50"
+              data-id="50"
+              name="toggle" />
+            <label for="toggle-50">50%</label>
 
-  Reset
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+            <input
+              type="radio"
+              id="toggle-custom"
+              data-id="0"
+              name="toggle" />
+            <label id="custom-input" for="toggle-custom">
+              <input
+                id="custom-tip"
+                type="number"
+                placeholder="Custom"
+                min="0" />
+            </label>
+          </div>
+        </section>
+        <section class="people-section">
+          <label for="people"> Number of People </label>
+          <div class="input-people input-people-js">
+            <input
+              type="number"
+              id="people"
+              placeholder="0"
+              min="0" />
+            <img
+              src="images/icon-person.svg"
+              alt="person-sign" />
+            <p>Can't be zero</p>
+          </div>
+        </section>
+      </section>
+      <section class="output-section">
+        <section>
+          <section class="tip-amount">
+            <div>
+              <p>Tip Amount</p>
+              <p>/ person</p>
+            </div>
+            <div id="tip-amount-js">$0</div>
+          </section>
+          <section class="total-amount">
+            <div>
+              <p>Total</p>
+              <p>/ person</p>
+            </div>
+            <div id="total-amount-js">$0</div>
+          </section>
+        </section>
+        <button class="reset">Reset</button>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/rhafaelc"
+        >Rhafael Chandra</a
+      >.
+    </div>
+    <script type="module" src="./js/bill.js"></script>
+    <script
+      type="module"
+      src="./js/tipPercentage.js"></script>
+    <script
+      type="module"
+      src="./js/peopleError.js"></script>
+    <script
+      type="module"
+      src="./js/calculateTipAmount.js"></script>
+    <script
+      type="module"
+      src="./js/calculateTotalAmount.js"></script>
+  </body>
 </html>

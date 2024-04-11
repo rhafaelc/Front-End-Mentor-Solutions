@@ -1,0 +1,320 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(185, 41%, 84%);
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#app-name {
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  width: 10rem;
+  word-wrap: break-word;
+  font-size: 2.2rem;
+  top: -12rem;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+main {
+  margin-top: 14rem;
+  border-radius: 2.5rem 2.5rem 0 0;
+  padding: 3.4rem 0rem 0rem 0rem;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "Space Mono";
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+
+.bill-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.bill-section label,
+.people-section label,
+.tip-percentage-section label {
+  font-size: 1.6rem;
+  color: hsl(186, 14%, 43%);
+}
+
+.bill-section .input-bill,
+.people-section .input-people {
+  display: flex;
+  flex-grow: 1;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  width: auto;
+  position: relative;
+}
+
+.input-bill input,
+.input-people input {
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+
+  text-align: right;
+  font-size: 2.4rem;
+  font-family: "Space Mono";
+  font-weight: bold;
+  padding: 1rem 2rem;
+  width: 100%;
+  border: 0;
+  border-radius: 0.6rem;
+}
+
+.input-bill input:hover,
+.input-people input:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+  padding: 0.8rem 1.8rem;
+}
+
+.input-bill img,
+.input-people img {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.error-people {
+  color: red;
+}
+
+.error-people input {
+  border: 2px solid red;
+  padding: 0.8rem 1.8rem;
+}
+
+.people-section p {
+  display: none;
+}
+
+.people-section.error-people p {
+  position: absolute;
+  display: block;
+  color: red;
+  right: 0;
+  top: -4rem;
+}
+
+.tip-percentage-section {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tip-percentage-section p {
+  margin: 0;
+  margin-bottom: 1.2rem;
+}
+
+.tip-percentage-radio-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.6rem;
+  column-gap: 1.6rem;
+  place-items: center;
+}
+
+.tip-percentage-radio-btn input[type="radio"] {
+  display: none;
+}
+
+.tip-percentage-radio-btn input[type="radio"] + label {
+  background-color: hsl(183, 100%, 15%);
+  text-align: center;
+  width: 100%;
+  padding: 0.6rem 0;
+  border-radius: 0.6rem;
+  font-size: 2.5rem;
+  color: hsl(189, 41%, 97%);
+  cursor: pointer;
+}
+
+#custom-input {
+  background-color: hsl(189, 41%, 97%);
+  display: flex;
+  padding: 0;
+  flex-grow: 1;
+}
+
+#custom-input input {
+  text-align: right;
+  font-family: "Space Mono";
+  font-weight: bold;
+  border: none;
+  padding: 0.6rem 2rem;
+  font-size: 2.4rem;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  height: 100%;
+  width: 100%;
+}
+
+#custom-input input:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+  padding: 0.4rem 1.8rem;
+}
+
+.tip-percentage-radio-btn
+  input[type="radio"].checked
+  + label {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.output-section {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 2.4rem 0 2.4rem;
+  padding: 4rem 2.4rem 2rem 2.4rem;
+  border-radius: 1.6rem;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.tip-amount,
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.tip-amount p:first-child,
+.total-amount p:first-child {
+  color: hsl(189, 41%, 97%);
+  margin: 0;
+}
+
+.tip-amount p:last-child,
+.total-amount p:last-child {
+  color: hsl(186, 14%, 43%);
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+#tip-amount-js,
+#total-amount-js {
+  font-size: 3rem;
+  color: hsl(172, 67%, 45%);
+}
+
+.reset {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Space Mono";
+  font-size: 2rem;
+  padding: 1rem 0;
+  border-radius: 0.6rem;
+  margin: 1rem 0 0 0;
+}
+
+.reset:hover {
+  background-color: hsl(185, 41%, 84%);
+}
+
+.attribution {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    margin-top: 16rem;
+    border-radius: 2.5rem;
+    padding: 0;
+    max-width: 65vw;
+    height: 50vh;
+    flex-direction: row;
+    box-shadow: 0 2rem 10rem -5rem hsla(186, 14%, 43%, 0.5);
+  }
+
+  #app-name {
+    top: -16rem;
+  }
+
+  .input-section,
+  .output-section {
+    flex-grow: 1;
+  }
+
+  .input-section {
+    width: 12rem;
+    margin: 5rem 1rem 4rem 6rem;
+  }
+
+  .output-section {
+    width: 6rem;
+    margin: 3.6rem;
+    padding: 6rem 4rem 4rem 4rem;
+  }
+
+  .tip-percentage-radio-btn {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .tip-amount p:first-child,
+  .total-amount p:first-child {
+    font-size: 1.6rem;
+  }
+
+  .tip-amount {
+    margin-bottom: 5rem;
+  }
+
+  .tip-amount p:last-child,
+  .total-amount p:last-child {
+    font-size: 1.4rem;
+  }
+
+  .output-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .attribution {
+    background-color: hsl(185, 41%, 84%);
+  }
+}
