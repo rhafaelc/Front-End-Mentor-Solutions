@@ -266,7 +266,7 @@ main {
     border-radius: 2.5rem;
     padding: 0;
     max-width: 65vw;
-    height: 50vh;
+    height: 48rem;
     flex-direction: row;
     box-shadow: 0 2rem 10rem -5rem hsla(186, 14%, 43%, 0.5);
   }
@@ -278,6 +278,10 @@ main {
   .input-section,
   .output-section {
     flex-grow: 1;
+  }
+
+  #custom-input input {
+    font-size: 2rem;
   }
 
   .input-section {
